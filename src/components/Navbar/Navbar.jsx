@@ -118,7 +118,8 @@ const Navbar = () => {
             <Box>
               <Box m="0" p="0">
                 <a
-                  href={require("file:///C:/Users/visha/OneDrive/Desktop/Logo%20images/Vishal_Mewada_Resume_05-05-2023-16-54-21.pdf")}
+                href="https://drive.google.com/file/d/1G1fZldNIg5_AOV0YBaDaDKpqsJdYPQqU/view?usp=sharing"
+                  // href={require("file:///C:/Users/visha/OneDrive/Desktop/Logo%20images/Vishal_Mewada_Resume_05-05-2023-16-54-21.pdf")}
                   target="_blank"
                   rel="noreferrer"
                   download
@@ -233,7 +234,8 @@ export function DrawerExample({ darkMode }) {
               <Box my="1">
                 <Box m="0" p="0" _hover={{ bgColor: "darkgrey" }}>
                   <a
-                    href={require("file:///C:/Users/visha/OneDrive/Desktop/Logo%20images/Vishal_Mewada_Resume_05-05-2023-16-54-21.pdf")}
+                  href="https://drive.google.com/file/d/1G1fZldNIg5_AOV0YBaDaDKpqsJdYPQqU/view?usp=sharing"
+                    // href={require("file:///C:/Users/visha/OneDrive/Desktop/Logo%20images/Vishal_Mewada_Resume_05-05-2023-16-54-21.pdf")}
                     target="_blank"
                     rel="noreferrer"
                     download
