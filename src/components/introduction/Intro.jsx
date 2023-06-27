@@ -76,8 +76,8 @@ const Intro = () => {
             <Box>
               <a
                 className="resume_link"
-                href="https://drive.google.com/file/d/1G1fZldNIg5_AOV0YBaDaDKpqsJdYPQqU/view?usp=sharing"
-                // href={require("file:///C:/Users/visha/OneDrive/Desktop/Logo%20images/Vishal_Mewada_Resume_05-05-2023-16-54-21.pdf")}
+              href="https://drive.google.com/file/d/1G1fZldNIg5_AOV0YBaDaDKpqsJdYPQqU/view?usp=sharing"
+               //  href={require("C:\Users\visha.NARESH\Desktop\Portfolio\src\resume")}
                 download="Vishal Mewada Resume"
                 my={"5"}
               >
