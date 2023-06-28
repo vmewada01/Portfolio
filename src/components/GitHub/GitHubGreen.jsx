@@ -14,7 +14,7 @@ const GitHubGreen = () => {
         textDecoration={"underline"}
         my={"7"}
       >
-        Sta<span style={{ color: "#59b256" }}>tistics</span>
+        Sta<span style={{ color: "rgb(255,101,1)" }}>tistics</span>
       </Text>
       <Box min-h="100vh" w="95%" m="1rem" my={"3rem"}>
         <Flex justify={"center"} my={"9"} w="90%" m="auto">

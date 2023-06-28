@@ -7,7 +7,7 @@ const PortFolioList = () => {
     <Box id="portfoliolist" m="1rem">
       <Box>
         <Heading width={"95%"} m="auto" textAlign={"center"}>
-          My <span style={{ color: "#59b256" }}>Projects</span>
+          My <span style={{ color: "rgb(255,101,1)" }}>Projects</span>
         </Heading>
       </Box>
       <SimpleGrid columns={[1, 1, 1, 2]} width={"95%"} m="auto">

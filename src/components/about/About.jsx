@@ -21,7 +21,7 @@ const About = () => {
       ) : null} */}
       <Box px={["1rem", "3rem", "3rem", "5rem"]}>
         <Heading fontWeight={"semibold"} textAlign={"center"} my={"5"}>
-          <span style={{ color: "#59b256", fontWeight: "bold" }}>About</span> Me
+          <span style={{ color: "rgb(255,101,1)", fontWeight: "bold" }}>About</span> Me
         </Heading>
         <Text
           my={"5"}
@@ -30,7 +30,7 @@ const About = () => {
           textAlign={"justify"}
         >
           <Text fontWeight={"semibold"}>Hello , I am Vishal Mewada</Text>
-          <Box color={"#59b256"} fontWeight={"semibold"}>
+          <Box color={"rgb(255,101,1)"} fontWeight={"semibold"}>
             <Typewriter
               options={{
                 strings: ["Front End Web Developer"],

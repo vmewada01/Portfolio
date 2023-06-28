@@ -28,7 +28,7 @@ const Skill = () => {
       <Box id="skill" min-h={"100vh"} m="auto" w={"95%"} my={"7rem"}>
         <Box mx={"4"} my={"4"}>
           <Heading textAlign={"center"}>
-            Ski<span style={{ color: "#59b256" }}>lls</span>
+            Ski<span style={{ color: "rgb(255,101,1)" }}>lls</span>
           </Heading>
         </Box>
         <Divider />
@@ -39,7 +39,7 @@ const Skill = () => {
           textDecoration={"underline"}
           my={"5"}
         >
-          Tech <span style={{ color: "#59b256" }}>Skills</span>
+          Tech <span style={{ color: "rgb(255,101,1)" }}>Skills</span>
         </Text>
         <SimpleGrid mt={"8"} columns={[3, 4, 5]} mx={"4"} gap="1rem">
           {techStack.map((el, index) => (
@@ -88,7 +88,7 @@ const Skill = () => {
           textAlign={"center"}
           textDecoration={"underline"}
         >
-          Soft <span style={{ color: "#59b256" }}>Skills</span>
+          Soft <span style={{ color: "rgb(255,101,1)" }}>Skills</span>
         </Text>
         <Flex
           w="90%"

@@ -45,14 +45,14 @@ const Intro = () => {
           </Text>
           <Heading fontSize={["4xl", "xl", "4xl", "5xl"]}>
             <Text className="type">
-              Vishal <span style={{ color: "#59b256" }}>Mewada</span>
+              Vishal <span style={{ color: "rgb(255,101,1)" }}>Mewada</span>
             </Text>
           </Heading>
           <Flex gap="15px" marginBottom={"1rem"} my={"5"}>
             <Tooltip label="My Github">
               <Box>
                 <a href="https://github.com/vmewada01" target="blank">
-                  <BsGithub size="2rem" color={darkMode ? "white" : "green"} />
+                  <BsGithub size="2rem" color={darkMode ? "white" : "rgb(255,101,1)"} />
                 </a>
               </Box>
             </Tooltip>
@@ -64,7 +64,7 @@ const Intro = () => {
                 >
                   <BsLinkedin
                     size="2rem"
-                    color={darkMode ? "white" : "green"}
+                    color={darkMode ? "white" : "rgb(255,101,1)"}
                   />
                 </a>
               </Box>

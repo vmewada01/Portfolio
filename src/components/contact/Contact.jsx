@@ -64,27 +64,27 @@ const Contact = () => {
           <Box className="c-left">
             <Heading
               fontSize={["2xl", "3xl", "4xl", "5xl"]}
-              style={{ color: "#59b256" }}
+              style={{ color: "rgb(255,101,1)" }}
               my={["5"]}
             >
               Contacts
             </Heading>
             <Box className="c-info">
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text borderBottom={"2px solid rgb(255,101,1)"} display={"inline-block"}>
                 Mobile No.
               </Text>
               <Box className="c-info-item">
                 <FcPhone size="35px" />
                 +91 9826736077
               </Box>
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text borderBottom={"2px solid rgb(255,101,1)"} display={"inline-block"}>
                 Mail Me.
               </Text>
               <Box className="c-info-item">
                 <MdMarkEmailRead size="35px" />
                 vishalmewada9826@gmail.com
               </Box>
-              <Text borderBottom={"2px solid green"} display={"inline-block"}>
+              <Text borderBottom={"2px solid rgb(255,101,1)"} display={"inline-block"}>
                 Address.
               </Text>
               <Box className="c-info-item">
@@ -100,7 +100,7 @@ const Contact = () => {
                     <a href="https://github.com/vmewada01" target="blank">
                       <BsGithub
                         size="2rem"
-                        color={darkMode ? "white" : "green"}
+                        color={darkMode ? "white" : "rgb(255,101,1)"}
                       />
                     </a>
                   </Box>
@@ -113,7 +113,7 @@ const Contact = () => {
                     >
                       <BsLinkedin
                         size="2rem"
-                        color={darkMode ? "white" : "green"}
+                        color={darkMode ? "white" : "rgb(255,101,1)"}
                       />
                     </a>
                   </Box>
@@ -125,7 +125,7 @@ const Contact = () => {
           <Box className="c-right" lineHeight={"2rem"}>
             <Text className="c-desc" textAlign={"justify"}>
               <Button
-                color={darkMode ? "white" : "green"}
+                color={darkMode ? "white" : "rgb(255,101,1)"}
                 bg={darkMode ? "#59b256" : "white"}
                 my={"3"}
               >
@@ -176,7 +176,7 @@ const Contact = () => {
                   fontSize={["xs", "sm", "md", "md"]}
                   type="submit"
                   value="Send"
-                  bg="#59b256"
+                  bg="rgb(255,101,1)"
                   w="50%"
                   color={"whitesmoke"}
                   _hover={{

@@ -32,7 +32,7 @@ const Navbar = () => {
       {isLargerThan ? (
         <Flex
           mx={"5"}
-          bg={darkMode ? "#2a3132" : "#f1f1f2"}
+          bg={darkMode ? "#2a3132" : "#rgb(255,101,1)"}
           position={"fixed"}
           zIndex={"99"}
           px={"5"}
@@ -41,7 +41,7 @@ const Navbar = () => {
             fontSize={"lg"}
             gap={"14px"}
             my={"2"}
-            color={darkMode ? "#f1f2f3" : "#59b256"}
+            color={darkMode ? "#f1f2f3" : "rgb(255,101,1)"}
             fontWeight={"semibold"}
           >
             <Link
@@ -153,9 +153,9 @@ export function DrawerExample({ darkMode }) {
         onClick={onOpen}
         mx={"5"}
         my={"2"}
-        color={darkMode ? "white" : "#59b256"}
+        color={darkMode ? "white" : "rgb(255,101,1)"}
         fontSize={"lg"}
-        bg={darkMode && "#2a3132"}
+        bg={darkMode && "rgb(255,101,1)"}
         position={"fixed"}
         zIndex={"99"}
       >
@@ -170,7 +170,7 @@ export function DrawerExample({ darkMode }) {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader color={"#59b256"}>Vishal Mewada</DrawerHeader>
+          <DrawerHeader color={"rgb(255,101,1)"}>Vishal Mewada</DrawerHeader>
 
           <DrawerBody lineHeight={"10vh"} textAlign={"center"}>
             <Box>
@@ -183,7 +183,7 @@ export function DrawerExample({ darkMode }) {
                 hashSpy={true}
                 onClick={() => onClose()}
               >
-                <Box _hover={{ bgColor: "darkgrey" }}>Introduction</Box>
+                <Box _hover={{ bgColor: "black" }}>Introduction</Box>
               </Link>
               <Link
                 to="about"

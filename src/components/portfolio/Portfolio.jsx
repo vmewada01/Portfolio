@@ -40,8 +40,8 @@ const PortFolio = ({
         my={"20px"}
         mx={"10px"}
         p={"2"}
-        border="1px solid skyblue"
-        _hover={{ border: "2px solid #59b256" }}
+        border="1px solid black"
+        _hover={{ border: "2px solid rgb(255,101,1)" }}
       >
         <Flex
           justify={"center"}
@@ -76,7 +76,7 @@ const PortFolio = ({
           >
             <Box>
               <Heading
-                color={"#59b256"}
+                color={"rgb(255,101,1)"}
                 fontSize={"2xl"}
                 fontWeight={"semibold"}
                 textDecoration={"underline"}
@@ -109,7 +109,7 @@ const PortFolio = ({
             </Box> */}
             <Box>
               <Text fontSize={["xs", "sm", "md", "md"]}>
-                <Code fontWeight={"bold"} color={"green"}>
+                <Code fontWeight={"bold"} color={"rgb(255,101,1)"}>
                   Tech Stack:
                 </Code>{" "}
                 {techstack}
