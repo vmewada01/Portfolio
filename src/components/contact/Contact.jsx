@@ -126,7 +126,7 @@ const Contact = () => {
             <Text className="c-desc" textAlign={"justify"}>
               <Button
                 color={darkMode ? "white" : "rgb(255,101,1)"}
-                bg={darkMode ? "#59b256" : "white"}
+                bg={darkMode ? "rgb(255,101,1)" : "white"}
                 my={"3"}
               >
                 say Hello
@@ -180,7 +180,7 @@ const Contact = () => {
                   w="50%"
                   color={"whitesmoke"}
                   _hover={{
-                    color: "green",
+                    color: "rgb(255,101,1)",
                     bg: "none",
                   }}
                 ></Input>
