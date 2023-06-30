@@ -33,13 +33,13 @@ const About = () => {
           <Box color={"rgb(255,101,1)"} fontWeight={"semibold"}>
             <Typewriter
               options={{
-                strings: ["Front End Web Developer"],
+                strings: ["Full Stack Web Developer"],
                 autoStart: true,
                 loop: true,
               }}
             />
           </Box>
-         A FrontEnd developer having
+         A Full Stack Web  developer learning backend having
           1100+hrs of hands on experience in web development and always
           energetic and eager to learn new things,Learning new things is for me
           a motivation to expand my knowledge and always honest with my work.
